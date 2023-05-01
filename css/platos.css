@@ -2,5 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Girassol', cursive;
+}
+
+header{
+    background-color: #AA1916;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 80% auto;
+}
+
+.logo{
+    width: 81px;
+    height: 88px;
+}
+
+.navbar{
+    display: grid;
+    grid-column: auto;
+    grid-row: 1/2;
+    list-style: none;
+    text-decoration: none;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFECE0;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    height: 17px;
 }
