@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Girassol', cursive;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    background-color: #AA1916;
+    height: 90px;
+    width: 100vw;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    position: absolute;
+    height: 81px;
+    width: 88px;
+    left: 16px;
+    top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFECE0;
+    font-size: 24px;
+    font-weight: 400px;    
+}
+
+main{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 175px;
+    left: 0px;
+    top: 90px;
+    background: #2C3333;
+}
+
+main button{
+    position: absolute;
+    display: flex;
+    width: 549px;
+    height: 114px;
+    left: 20px;
+    top: 31px;
+    background: #092A3A;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 36px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+section{
+    display: flex;
+    position: absolute;
+    width: 333px;
+    height: 759px;
+    left: 0px;
+    top: 175px;
+    background: #656565;
+}
+
+section div img{
+    display: flex;
+    position: absolute;
+    left: 28px;
+    top: 100px   
+}
+
+section div h2{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    color: #FFECE0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: normal;
+    width: 188px;
+    height: 35px;
+    top: 110px;
+    left: 116px;
+}
+
+.direccion{
+    position: absolute;
+    top: -70px;
+    left: -5px;
+}
+
+.sorrentofrente{
+    display: flex;
+    position: absolute;
+    left: 700px;
+    top: 13px;
+    border-radius: 0px 0px 25px 25px;
+    height: 150px;
+    width: 700px;
+}
+
+.sorrentofrentealtura{
+    display: flex;
+    position: absolute;
+    top: 135px;
+    left: 15px;
+    width: 300px;
+    height: 500px;
+    border-radius: 0px 0px 25px 25px;
+}

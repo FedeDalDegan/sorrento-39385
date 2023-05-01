@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Girassol', cursive;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    background-color: #AA1916;
+    height: 90px;
+    width: 100vw;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    position: absolute;
+    height: 81px;
+    width: 88px;
+    left: 16px;
+    top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFECE0;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+main{
+    background-image: url(../assets/img/page5bg.png);
+    display: flex;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 90px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/636/636/890/line-strip-grey-background-wallpaper-0281e2a05d86fe1beaf8c2f5b058f9d2.jpg);
+}
+
+.formulario{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    position: absolute;
+    width: 605px;
+    height: 868px;
+    left: 62px;
+    top: 20px;
+    background: #092A3A;
+    border: 2px solid #AA1916;
+    border-radius: 0px 0px 30px 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.text{
+    display: flex;
+    position: absolute;
+    width: 531px;
+    height: 82px;
+    left: 33px;
+    top: 20px;
+    border: 2px solid #AA1916;
+    border-radius: 15px;
+    font-size: 45px;
+}
+
+.email{
+    display: flex;
+    position: absolute;
+    width: 531px;
+    height: 82px;
+    left: 33px;
+    top: 150px;
+    border: 2px solid #AA1916;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.date{
+    display: flex;
+    position: absolute;
+    width: 531px;
+    height: 82px;
+    left: 33px;
+    top: 280px;
+    border: 2px solid #AA1916;
+    border-radius: 15px;
+    font-size: 45px;
+}
+
+.number{
+    display: flex;
+    position: absolute;
+    width: 531px;
+    height: 82px;
+    left: 33px;
+    top: 410px;
+    border: 2px solid #AA1916;
+    border-radius: 15px;
+    font-size: 45px;
+}
+
+.descripcion{
+    display: flex;
+    position: absolute;
+    width: 531px;
+    height: 183px;
+    left: 33px;
+    top: 540px;
+    border: 2px solid #AA1916;
+    border-radius: 15px;
+    font-size: 45px;
+}
+
+.enviar{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 230px;
+    top: 750px;
+    border: 2px solid #AA1916;
+    border-radius: 15px;
+    font-size: 25px;
+    justify-content: center;
+    
+}
+
+legend{
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid #AA1916;
+    border-radius: 5px;
+    font-size: 35px;
+    width: 350px;
+}
+
+.contacto1{
+    position: absolute;
+    width: 640px;
+    height: 409px;
+    left: 720px;
+    top: 45px;
+}
+
+.contacto2{
+    position: absolute;
+    width: 640px;
+    height: 409px;
+    left: 720px;
+    top: 478px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Girassol', cursive;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    background-color: #AA1916;
+    height: 90px;
+    width: 100vw;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    position: absolute;
+    height: 81px;
+    width: 88px;
+    left: 16px;
+    top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFECE0;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+main{
+    background-image: url(../assets/img/nosotrosbg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 1024px;
+}
+
+h1{
+    display: flex;
+    position: absolute;
+    width: 415px;
+    height: 63px;
+    left: 373px;
+    top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+    color: #AA1916;
+    text-align: center;
+}
+
+.restaurant1{
+    display: flex;
+    position: absolute;
+    width: 700px;
+    height: 475px;
+    left: 42px;
+    top: 150px;
+}
+
+.restaurant2{
+    display: flex;
+    position: absolute;
+    width: 303px;
+    height: 273px;
+    left: 780px;
+    top: 150px;
+}
+
+.lorem{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 138px;
+    left: 780px;
+    top: 450px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #AA1916;
+}
+
+.chef1{
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1159px;
+    top: 45px;
+}
+
+.nombre1{
+    display: flex;
+    position: absolute;
+    width: 207px;
+    height: 61px;
+    left: 15px;
+    top: 250px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: black;
+}
+
+.descripcion1{
+    display: flex;
+    position: absolute;
+    width: 207px;
+    height: 61px;
+    left: 44px;
+    top: 300px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 43px;
+    text-align:center;
+    color: black;
+}
+
+.chef2{
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1159px;
+    top: 450px;
+}
+
+.nombre2{
+    display: flex;
+    position: absolute;
+    width: 207px;
+    height: 61px;
+    left: 29px;
+    top: 255px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: black;
+}
+
+.descripcion2{
+    display: flex;
+    position: absolute;
+    width: 207px;
+    height: 61px;
+    left: 15px;
+    top: 300px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 43px;
+    text-align:center;
+    color: black;
+}
+
+.redbanner{
+    display: flex;
+    position: absolute;
+    width: 312px;
+    height: 1024px;
+    left: 1128px;
+    top: 0px;
+}
+
+.line{
+    display: flex;
+    position: absolute;
+    left: 1128px;
+    top: -1px;
+}
+
+.button{
+    display: flex;
+    position: absolute;
+    width: 278px;
+    height: 126px;
+    left: 1148px;
+    top: 846px;
+    background: #092A3A;
+    border-radius: 30px;
+}
+
+p{
+    display: flex;
+    position: absolute;
+    width: 157px;
+    height: 46px;
+    left: 25%;
+    top: 25%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    color: #F9F8F4;
+}
+
+.chef3{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 42px;
+    top: 800px;
+}
+
+.chef4{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 316px;
+    top: 800px;
+}
+
+.chef5{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 578px;
+    top: 800px;
+}
+
+.chef6{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 861px;
+    top: 800px;
+}
+
+.nombre3{
+    display: flex;
+    position: absolute;
+    width: 175px;
+    height: 100px;
+    left: 51px;
+    top: 1000px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: black;
+}
+
+.descripcion3{
+    display: flex;
+    position: absolute;
+    width: 175px;
+    height: 64px;
+    left: 100px;
+    top: 1050px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align:center;
+    color: black;
+}
+
+.nombre4{
+    display: flex;
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    left: 305px;
+    top: 1000px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: black;
+}
+
+.descripcion4{
+    display: flex;
+    position: absolute;
+    width: 175px;
+    height: 64px;
+    left: 370px;
+    top: 1050px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align:center;
+    color: black;
+}
+
+.nombre5{
+    display: flex;
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    left: 575px;
+    top: 1000px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: black;
+}
+
+.descripcion5{
+    display: flex;
+    position: absolute;
+    width: 175px;
+    height: 64px;
+    left: 628px;
+    top: 1050px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align:center;
+    color: black;
+}
+
+.nombre6{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 830px;
+    top: 1000px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: black;
+}
+
+.descripcion6{
+    display: flex;
+    position: absolute;
+    width: 175px;
+    height: 64px;
+    left: 910px;
+    top: 1050px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align:center;
+    color: black;
+}
+
+.cheflider{
+    display: flex;
+    position: absolute;
+    left: 480px;
+}
+
+.chefprofesion{
+    display: flex;
+    position: absolute;
+    top: -50px;
+    left: 225px;
+}
+
+.infolugar{
+    display: flex;
+    position: absolute;
+    left: 250px;
+}

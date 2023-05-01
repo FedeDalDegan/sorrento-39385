@@ -1,0 +1,794 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Girassol', cursive;
+}
+
+header{
+    background-image: url(../assets/img/pastabg.jpg);
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.navbar{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    background-color: #AA1916;
+    height: 90px;
+    width: 100vw;
+    align-items: center;
+    padding: 40px;
+}
+
+.logo{
+    position: absolute;
+    height: 81px;
+    width: 88px;
+    left: 16px;
+    top: 5px;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    height: 295px;
+    width: 559px;
+    left: 700px;
+    right: 145px;
+    top: 145px;
+}
+
+.caseras{
+    display: flex;
+    position: absolute;
+    width: 202px;
+    height: 202px;
+    left: 1200px;
+    top: 547px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFECE0;
+    font-size: 24px;
+    font-weight: 400px;
+    
+}
+
+.page2bg{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    left: 0px;
+    top: 969px;
+}
+
+.recomendaciones{
+    display: flex;
+    position: absolute;
+    width: 705px;
+    height: 206px;
+    left: 600px;
+    top: 1014px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #AA1916;
+}
+
+.plato1{
+    display: flex;
+    position: absolute;
+    width: 141px;
+    height: 43px;
+    left: 500px;
+    top: 1383px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #AA1916;
+}
+
+.plato1foto{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 405px;
+    top: 1477px;
+}
+
+.plato2{
+    display: flex;
+    position: absolute;
+    width: 131px;
+    height: 38px;
+    left: 880px;
+    top: 1383px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #AA1916;
+}
+
+.plato2foto{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+    top: 1477px;
+}
+
+.plato3{
+    display: flex;
+    position: absolute;
+    width: 128px;
+    height: 48px;
+    left: 1280px;
+    top: 1385px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #AA1916;
+}
+
+.plato3foto{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1190px;
+    top: 1477px;
+}
+
+.page3bg{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 1920px;
+}
+
+.fideos{
+    display: flex;
+    position: absolute;
+    width: 396px;
+    height: 210px;
+    left: 1340px;
+    top: 1950px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #AA1916;
+}
+
+.yemita{
+    position: absolute;
+    width: 149px;
+    height: 55px;
+    left: 1470px;
+    top: 2200px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.fideosyemita{
+    display: flex;
+    position: absolute;
+    width: 172px;
+    height: 203px;
+    left: 1450px;
+    top: 2280px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    flex-direction: column;
+    list-style: none;
+}
+
+.morron{
+    display: flex;
+    position: absolute;
+    width: 158px;
+    height: 50px;
+    left: 1458px;
+    top: 2500px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.fideosmorron{
+    display: flex;
+    position: absolute;
+    width: 86px;
+    height: 85px;
+    left: 1490px;
+    top: 2580px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    list-style: none;
+    flex-direction: column;
+}
+
+.espinaca{
+    position: absolute;
+    width: 185px;
+    height: 54px;
+    left: 1450px;
+    top: 2680px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.fideosespinaca{
+    position: absolute;
+    width: 84px;
+    height: 83px;
+    left: 1490px;
+    top: 2760px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    list-style: none;
+    flex-direction: column;
+}
+
+.page4bg{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 2888px;
+}
+
+.fideosrellenos{
+    display: flex;
+    position: absolute;
+    width: 376px;
+    height: 217px;
+    left: 104px;
+    top: 2900px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #AA1916;
+}
+
+.sorrentinos{
+    display: flex;
+    position: absolute;
+    width: 257px;
+    height: 55px;
+    left: 164px;
+    top: 3150px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.sorrentinosfideos{
+    position: absolute;
+    width: 232px;
+    height: 107px;
+    left: 176px;
+    top: 3230px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.ravioles{
+    position: absolute;
+    width: 176px;
+    height: 54px;
+    left: 204px;
+    top: 3370px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.raviolestipos{
+    display: flex;
+    position: absolute;
+    width: 268px;
+    height: 230px;
+    left: 158px;
+    top: 3450px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    list-style: none;
+    flex-direction: column;
+}
+
+.agnolottis{
+    position: absolute;
+    width: 219px;
+    height: 54px;
+    left: 176px;
+    top: 3700px;    
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-decoration-line: underline;    
+    color: #FFFFFF;
+}
+
+.agnolottistipos{
+    position: absolute;
+    width: 207px;
+    height: 31px;
+    left: 182px;
+    top: 3780px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.page5bg{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 3856px;
+}
+
+.postre1{
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    left: 55px;
+    top: 3900px;
+}
+
+.postre2{
+    display: flex;
+    position: absolute;
+    width: 500px;
+    height: 900px;
+    left: 1200px;
+    top: 3900px;
+}
+
+.postre3{
+    display: flex;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 303px;
+    top: 4380px;
+}
+
+.postrebg{
+    display: flex;
+    position: absolute;
+    width: 525px;
+    height: 450px;
+    left: 55px;
+    top: 4350px;
+}
+
+.nuestros{
+    display: flex;
+    position: absolute;
+    width: 467px;
+    height: 143px;
+    left: 165px;
+    top: 4400px;
+    font-family: 'Style';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 136px;
+    color: #635D5D;
+    font-style: italic;
+    font-style: normal;
+}
+
+.postres{
+    display: flex;
+    position: absolute;
+    width: 340px;
+    height: 106px;
+    left: 155px;
+    top: 4600px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 130px;
+    color: #4F4A4A;
+}
+
+.page6bg{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 4818px;
+    background: #590202;
+}
+
+.horario{
+    display: flex;
+    position: absolute;
+    width: 186px;
+    height: 49px;
+    left: 220px;
+    top: 70px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #EBCECF;
+}
+
+.dias{
+    position: absolute;
+    width: 171px;
+    height: 614px;
+    left: 80px;
+    top: 165px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 105px;
+    color: #EBCECF;
+    list-style: none;
+    gap: 0 20px;
+}
+
+.semana{
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 614px;
+    left: 400px;
+    top: 200px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 52.1px;
+    color: #EBCECF;
+    list-style: none;
+    flex-direction: column;
+}
+
+.encontranos{
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 94px;
+    left: 950px;
+    top: 4900px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #EBCECF;
+}
+
+.circulo{
+    display: flex;
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    left: 1110px;
+    top: 5050px;
+}
+
+.video{
+    display: flex;
+    position: absolute;
+    width: 900px;
+    height: 450px;
+    left: 780px;
+    top: 5300px;
+}
+
+.footer{
+    display: flex;
+    position: absolute;
+    height: auto;
+    width: 1920px;
+    top: 5786px;
+}
+
+.fb{
+    display: flex;
+    position: absolute;
+    height: 35.89px;
+    width: 36px;
+    top: 5822px;
+    left: 10px;
+    
+}
+
+.ig{
+    display: flex;
+    position: absolute;
+    height: 35.89px;
+    width: 36px;
+    top: 5900px;
+    left: 10px;
+}
+
+.wpp{
+    display: flex;
+    position: absolute;
+    height: 35.89px;
+    width: 36px;
+    top: 5975px;
+    left: 10px;
+} 
+
+.fbp{
+    position: absolute;
+    width: 140px;
+    height: 21.93px;
+    left: 56px;
+    top: 5825px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.igp{
+    position: absolute;
+    width: 140px;
+    height: 29.91px;
+    left: 56px;
+    top: 5905px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.wppnumber{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 22.93px;
+    left: 52px;
+    top: 5980px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.telefono{
+    display: flex;
+    position: absolute;
+    left: 755px;
+    right: 64.51px;
+    top: 5865px;
+    bottom: 1.8px;
+    }
+
+.celular{
+    display: flex;
+    position: absolute;
+    left: 760px;
+    right: 64.51px;
+    top: 5920px;
+    bottom: 1.8px;
+}
+
+.telefononumero{
+    display: flex;
+    position: absolute;
+    width: 120px;
+    height: 23.93px;
+    left: 810px;
+    top: 5870px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.celularnumero{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 23.93px;
+    left: 800px;
+    top: 5930px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.locationvector{
+    display: flex;
+    position: absolute;
+    width: 28px;
+    height: 38.82px;
+    top: 5890px;
+    left: 1150px;
+}
+
+.locationlocal{
+    display: flex;
+    position: absolute;
+    width: 207px;
+    height: 53.83px;
+    left: 1200px;
+    top: 5880px;
+    font-family: 'Girassol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.footerlogo{
+    display: flex;
+    position: absolute;
+    width: 130px;
+    height: 150px;
+    left: 1720px;
+    top: 5845px;
+}
+
+/* Pagina plato 1 */
+
+.bgplato1{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 90px;
+    transform: rotate(180deg);
+}
+
+.container {  
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.3fr 2.5fr 0.2fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "plato lorem lorem"
+    "plato lorem lorem"
+    "footer footer footer"
+    ;
+}
+
+.plato1ejemplo{
+    display: grid;
+    position: absolute;
+    grid-area: "plato";
+    width: auto;
+    height: auto;
+    transform: rotate(90deg);
+    top: 5px;
+    left: 200px;
+    border-radius: 0px 55px 0px 0px;
+    align-items: center;
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.lorem{
+    display: grid;
+    position: absolute;
+    grid-area: "lorem";
+    color: #AA1916;
+    font-size: 45px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    top: 155px;
+    width: 50%;
+    left: 900px;
+    text-overflow: ellipsis;
+    background-color: #4126263a;
+    border-radius: 10px 10px 10px 10px;
+
+}
+

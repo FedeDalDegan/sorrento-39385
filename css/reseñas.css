@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Girassol', cursive;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    background-color: #AA1916;
+    height: 90px;
+    width: 100vw;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    position: absolute;
+    height: 81px;
+    width: 88px;
+    left: 16px;
+    top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFECE0;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+main{
+    background-color: #171717;
+    width: 100vw;
+    height: 100vh;
+}
+
+h4{
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    position: absolute;
+    width: 128px;
+    height: 26px;
+    top: 145px;
+    left: 60px;
+    text-decoration: underline;
+    color: #f05a06;
+    font-weight: normal;
+}
+
+.primeralinea{
+    display: flex;
+    position: absolute;
+    width: 501px;
+    height: 142px;
+    top: 227px;
+    left: 60px;
+    font-size: 64px;
+    color: #FFECE0;
+    font-weight: normal;
+    line-height: 76px;
+    line-height: 100%;
+}
+
+.segundalinea{
+    display: flex;
+    position:absolute;
+    color: #FFECE0;
+    font-size: 64px;
+    font-weight: normal;
+    width: 100%;
+    height: 35px;
+    top: 300px;
+    left: 60px;
+}
+
+button{
+    background: #092A3A;
+    display: flex;
+    position: relative;
+    width: 276px;
+    height: 126px;
+    left: 1065px;
+    top: 145px;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+section a button p{
+    display: flex;
+    position: absolute;
+    width: 155px;
+    height: 70px;
+    top: 30px;
+    left: 57px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+article{
+    background: url("../assets/img/reviewbg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    width: 351px;
+    height: 165px;
+    left: 60px;
+    top: 512px;
+}
+
+article img{
+    display: flex;
+    position: absolute;
+    top: 9px;
+    left: 131px;
+}
+
+.reseña1{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: 70px;
+    left: 50px;
+    top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.nombre1{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: 70px;
+    left: 0px;
+    top: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.rv2{
+    background-image: url(../assets/img/reviewbg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    width: 351px;
+    height: 165px;
+    left: 544px;
+    top: 512px;
+}
+
+section img{
+    display: flex;
+    position: absolute;
+    top: 9px;
+    left: 131px;
+}
+
+.reseña2{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: 70px;
+    left: 50px;
+    top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.nombre2{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: 70px;
+    left: 0px;
+    top: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.rv3{
+    background-image: url(../assets/img/reviewbg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    width: 351px;
+    height: 165px;
+    left: 1028px;
+    top: 512px;
+}
+
+.reseña3{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: 70px;
+    left: 50px;
+    top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.nombre3{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: 70px;
+    left: 0px;
+    top: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.rv4{
+    background-image: url(../assets/img/reviewbg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    width: 351px;
+    height: 165px;
+    left: 296px;
+    top: 707px;
+}
+
+.reseña4{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: 70px;
+    left: 50px;
+    top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.nombre4{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: auto;
+    left: 0px;
+    top: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.rv5{
+    background-image: url(../assets/img/reviewbg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    width: 351px;
+    height: 165px;
+    left: 786px;
+    top: 707px;
+}
+
+.reseña5{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: 70px;
+    left: 50px;
+    top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.nombre5{
+    display: flex;
+    position: absolute;
+    width: 249px;
+    height: 70px;
+    left: 0px;
+    top: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.vermas{
+    display: flex;
+    position: absolute;
+    top: 695px;
+    left: -240px;
+    height: 126px;
+    width: 276px;
+}
+
+section div button p{
+    display: flex;
+    position: absolute;
+    width: 155px;
+    height: 70px;
+    top: 30px;
+    left: 57px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 30px;
+    text-align:center;
+}
+
+.rvw{
+    display: flex;
+    position: absolute;
+    top: -50px;
+    left: 250px;
+}
