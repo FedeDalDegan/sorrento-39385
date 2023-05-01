@@ -1,39 +1,215 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Girassol', cursive;
 }
 
-header{
-    background-color: #AA1916;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto 80% auto;
-}
+/* NavBar con FLEX. */
 
-.logo{
-    width: 81px;
-    height: 88px;
+body{
+    background-color: antiquewhite;
 }
 
 .navbar{
-    display: grid;
-    grid-column: auto;
-    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 40px;
     list-style: none;
-    text-decoration: none;
-    justify-content:flex-end;
+    background-color: #AA1916;
+    height: 90px;
+    width: 100vw;
     align-items: center;
+    padding: 30px;
 }
 
-ul li a{
-    text-decoration: none;
-    color: #FFECE0;
+.logo{
+    position: absolute;
+    height: 81px;
+    width: 88px;
+    left: 16px;
+    top: 5px;
 }
 
 a{
-    display: flex;
-    flex-direction: row;
-    height: 17px;
+    text-decoration: none;
+    color: #FFECE0;
+    font-size: 24px;
+    font-weight: 400px;
 }
+
+/* Main hecho con GRIDS. */
+
+main{
+    display: grid;
+    grid-template-columns: 5% repeat(3, 1fr) 15%;
+    grid-template-rows: 5% repeat(1, 1fr);
+    grid-template-areas: 
+    ". . . . ."
+    ". img . lorem ."
+    
+    ;
+}
+
+img{
+    height: 450px;
+    width: 650px;
+    border-radius: 0px 0px 45px 0px;
+    
+}
+
+.comida{
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+    
+    justify-self:flex-start;
+    grid-area: img;
+}
+
+.lorem{
+    display: grid;
+    font-size: 30px;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+    text-align: justify;
+    justify-self: flex-start;
+    align-self: center;
+    width: 450px;
+    grid-area: lorem;
+}
+
+/* BUTTONS */
+
+.grid-layout{
+    display: grid;
+    grid-template-rows: 15% repeat(3, 1fr);
+    grid-template-columns: 20% repeat(3, 1fr);
+    height: 400px;
+    grid-template-areas: 
+    ". . . ."
+    ". btn1 btn2 ."
+    ". . . ."
+    ". . . ."; 
+}
+
+.plato1btn{
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    grid-area: btn1;
+    align-self: center;
+    justify-self: center;
+
+    background: #092A3A;
+    width: 276px;
+    height: 126px;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+.plato3btn{
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    grid-area: btn2;
+    align-self: center;
+    justify-self:flex-end;
+
+    background: #092A3A;
+    width: 276px;
+    height: 126px;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+@media (max-width:1157px){
+    
+    main{
+        grid-template-rows: 15% repeat(3);
+        grid-template-columns: 15% repeat(3);
+        grid-template-areas: 
+        ". . ."
+        ". img ."
+        ". lorem ."
+        
+        ;
+    }
+
+    .comida{
+        align-self: center;
+        justify-self: center;
+        grid-column: 2 / 5;
+    }
+    .lorem{
+        text-align: center;
+        grid-column: 2 / 5;
+        grid-row: 3 / 5;
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .navbar{
+        flex-direction: column;
+        height: 225px;
+        gap: 10px;
+    }
+    .plato3btn{
+        grid-row: 4 / 5;
+        grid-column: 2 / 3;
+    }
+}
+
+@media (max-width: 920px){
+    .navbar{
+        flex-direction: column;
+        height: 200px;
+        width: 800px;
+        gap: 5px;
+        line-height: 35px;
+    }
+    .lorem{
+        width: 700px;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
+
+
+
+@media (max-width: 320px){
+    .navbar{
+        height: 200px;
+        width: 700px;
+        gap: 5px;
+        line-height: 35px;
+    }
+    main{
+        grid-template-columns: 1fr;
+        grid-template-areas: 10% auto;
+        grid-template-areas: 
+        "."
+        "img"
+        "lorem";
+    }
+    .lorem{
+        width: 400px;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
