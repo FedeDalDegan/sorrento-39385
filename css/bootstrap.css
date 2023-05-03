@@ -36,3 +36,49 @@ a{
     font-size: 24px;
     font-weight: 400px;
 }
+
+.btn{
+    background: #092A3A;
+    width: 276px;
+    height: 126px;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFECE0;
+}
+
+
+@media (max-width:768px){
+    .navbar{
+        flex-direction: column;
+        height: 225px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 920px){
+    .navbar{
+        flex-direction: column;
+        height: 250px;
+        width: 100vw;
+        gap: 5px;
+        line-height: 35px;
+    }
+
+    
+}
+
+
+
+@media (max-width: 320px){
+    .navbar{
+        height: 250px;
+        width: 100vw;
+        gap: 5px;
+        line-height: 35px;
+    }
+
+}
